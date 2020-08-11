@@ -1,5 +1,5 @@
 # antboat
-Commandline tool for inverting between Antenapod and Newsboat podcast databases
+Commandline tool for converting between Antenapod and Newsboat podcast databases
 
 ## Build
 ``` bash
