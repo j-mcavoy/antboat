@@ -6,4 +6,8 @@ edition = "2018"
 description = "Commandline tool for inverting between Antenapod and Newsboat podcast databases"
 
 [dependencies]
+diesel = { version = "1.4.4", features = ["sqlite"] }
 rusqlite = "0.23.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "*"
+directories = "3.0.1"
