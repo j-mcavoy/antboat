@@ -1,0 +1,9 @@
+[package]
+name = "antboat"
+version = "0.1.0"
+authors = ["John McAvoy <j-mcavoy@protonmail.com>"]
+edition = "2018"
+description = "Commandline tool for inverting between Antenapod and Newsboat podcast databases"
+
+[dependencies]
+rusqlite = "0.23.1"
