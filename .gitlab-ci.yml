@@ -1,0 +1,4 @@
+image: rust:latest
+
+test:
+    - cargo test
